@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="4dp"
+    android:layout_marginVertical="2dp"
+    android:background="#888888">
+
+    <TextView
+        android:id="@+id/tv_item_day"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="#E8E8E8"
+        android:gravity="center"
+        android:textSize="14sp"
+        tools:text="12" />
+
+    <TextView
+        android:id="@+id/tv_item_week"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/tv_item_day"
+        android:background="#E8E8E8"
+        android:gravity="center"
+        android:textSize="14sp"
+        tools:text="周五" />
+
+    <TextView
+        android:id="@+id/tv_item_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@id/tv_item_day"
+        android:layout_alignBottom="@id/tv_item_week"
+        android:layout_toEndOf="@id/tv_item_day"
+        android:layout_toRightOf="@id/tv_item_day"
+        android:background="#E8E8E8"
+        android:gravity="center_vertical"
+        android:lines="2"
+        android:padding="10dp"
+        tools:text="啊的肌肤离开家离开房\n间森林砍1212伐军绿色解放了看时的技术开发就开始JFK的角色双击打开军事科技的间分厘kfmfkklskfmlksfmlskdmflkfmlk卡几点嘞就开始了的房间里" />
+
+</RelativeLayout>
