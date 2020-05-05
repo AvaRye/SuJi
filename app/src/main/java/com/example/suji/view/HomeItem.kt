@@ -1,9 +1,12 @@
-package com.example.suji
+package com.example.suji.view
 
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.suji.commons.Item
+import com.example.suji.commons.ItemController
+import com.example.suji.R
 import kotlinx.android.synthetic.main.item_home.view.*
 import org.jetbrains.anko.layoutInflater
 
@@ -17,7 +20,14 @@ class HomeItem : Item {
             val dayView = view.tv_item_day
             val weekView = view.tv_item_week
             val contentView = view.tv_item_content
-            return ViewHolder(view, dayView, weekView, contentView)
+            val bonus = view.tv_item_placeholder
+            return ViewHolder(
+                view,
+                dayView,
+                weekView,
+                contentView,
+                bonus
+            )
         }
 
         override fun onBindViewHolder(holder: RecyclerView.ViewHolder, item: Item) {
@@ -30,7 +40,8 @@ class HomeItem : Item {
             itemView: View,
             val dayView: TextView,
             val weekView: TextView,
-            val contentView: TextView
+            val contentView: TextView,
+            val bonus: TextView
         ) : RecyclerView.ViewHolder(itemView)
     }
 
@@ -40,4 +51,3 @@ class HomeItem : Item {
 
 internal fun MutableList<Item>.homeItem(builder: HomeItem.Controller.ViewHolder.() -> Unit) =
     add(HomeItem().apply { this.builder = builder })
-

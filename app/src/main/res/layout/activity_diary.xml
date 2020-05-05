@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.DiaryActivity">
+
+    <TextView
+        android:id="@+id/tv_diary_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="二零一九年十一月十二日"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+
+    <View
+        android:id="@+id/v_diary_line"
+        android:layout_width="match_parent"
+        android:layout_height="2.5dp"
+        android:layout_below="@id/tv_diary_date"
+        android:layout_alignStart="@id/tv_diary_date"
+        android:layout_alignLeft="@id/tv_diary_date"
+        android:layout_alignEnd="@id/tv_diary_date"
+        android:layout_alignRight="@id/tv_diary_date"
+        android:layout_marginBottom="5dp"
+        android:background="#000000" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/v_diary_line"
+        android:layout_alignStart="@id/tv_diary_date"
+        android:layout_alignLeft="@id/tv_diary_date"
+        android:layout_alignEnd="@id/tv_diary_date"
+        android:scrollbarSize="2dp"
+        android:layout_alignRight="@id/tv_diary_date">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:inputType="textMultiLine"
+            android:letterSpacing="0.02"
+            android:lineSpacingExtra="8dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="50dp"
+            android:text="上课的老师\n开朗大方开朗上几点开始立刻搭街坊立刻就是独立访客觉得螺丝扣江东父老上空的飞机是老款的房间里上空的飞机顺利打开飞机螺丝钉咖啡碱岛咖啡老师的课离开拘留所克己复礼克己复礼看人家弗兰克输入
+            上课的老师\n开朗大方开朗上几点开始立刻搭街坊立刻就是独立访客觉得螺丝扣江东父老上空的飞机是老款的房间里上空的飞机顺利打开飞机螺丝钉咖啡碱岛咖啡老师的课离开拘留所克己复礼克己复礼看人家弗兰克输入框JFK李开复今日李开复今日了上课的老师\n开朗大方开朗上几点开始立刻搭街坊立刻就是独立访客觉得螺丝扣江东父老上空的飞机是老款的房间里上空的飞机顺利打开飞机螺丝钉咖啡碱岛咖啡老师的课离开拘留所克己复礼克己复礼看人家弗兰克输入框JFK李开复今日李开复今日了上课的老师\n开朗大方开朗上几点开始立刻搭街坊立刻就是独立访客觉得螺丝扣江东父老上空的飞机是老款的房间里上空的飞机顺利打开飞机螺丝钉咖啡碱岛咖啡老师的课离开拘留所克己复礼克己复礼看人家弗兰克输入框JFK李开复今日李开复今日了上课的老师\n开朗大方开朗上几点开始立刻搭街坊立刻就是独立访客觉得螺丝扣江东父老上空的飞机是老款的房间里上空的飞机顺利打开飞机螺丝钉咖啡碱岛咖啡老师的课离开拘留所克己复礼克己复礼看人家弗兰克输入框JFK李开复今日李开复今日了上课的老师\n开朗大方开朗上几点开始立刻搭街坊立刻就是独立访客觉得螺丝扣江东父老上空的飞机是老款的房间里上空的飞机顺利打开飞机螺丝钉咖啡碱岛咖啡老师的课离开拘留所克己复礼克己复礼看人家弗兰克输入框JFK李开复今日李开复今日了上课的老师\n开朗大方开朗上几点开始立刻搭街坊立刻就是独立访客觉得螺丝扣江东父老上空的飞机是老款的房间里上空的飞机顺利打开飞机螺丝钉咖啡碱岛咖啡老师的课离开拘留所克己复礼克己复礼看人家弗兰克输入框JFK李开复今日李开复今日了上课的老师\n开朗大方开朗上几点开始立刻搭街坊立刻就是独立访客觉得螺丝扣江东父老上空的飞机是老款的房间里上空的飞机顺利打开飞机螺丝钉咖啡碱岛咖啡老师的课离开拘留所克己复礼克己复礼看人家弗兰克输入框JFK李开复今日李开复今日了上课的老师\n开朗大方开朗上几点开始立刻搭街坊立刻就是独立访客觉得螺丝扣江东父老上空的飞机是老款的房间里上空的飞机顺利打开飞机螺丝钉咖啡碱岛咖啡老师的课离开拘留所克己复礼克己复礼看人家弗兰克输入框JFK李开复今日李开复今日了上课的老师\n开朗大方开朗上几点开始立刻搭街坊立刻就是独立访客觉得螺丝扣江东父老上空的飞机是老款的房间里上空的飞机顺利打开飞机螺丝钉咖啡碱岛咖啡老师的课离开拘留所克己复礼克己复礼看人家弗兰克输入框JFK李开复今日李开复今日了框JFK李开复今日李开复今日了"
+            android:textCursorDrawable="@color/colorAccent"
+            android:textSize="16sp" />
+    </ScrollView>
+
+</RelativeLayout>

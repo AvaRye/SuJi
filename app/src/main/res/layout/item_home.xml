@@ -16,6 +16,7 @@
         android:layout_marginBottom="1dp"
         android:background="#E8E8E8"
         android:gravity="center"
+        android:textColor="#000000"
         android:textSize="14sp"
         tools:text="12" />
 
@@ -26,6 +27,7 @@
         android:layout_below="@id/tv_item_day"
         android:background="#E8E8E8"
         android:gravity="center"
+        android:textColor="#000000"
         android:textSize="14sp"
         tools:text="周五" />
 
@@ -38,9 +40,26 @@
         android:layout_toEndOf="@id/tv_item_day"
         android:layout_toRightOf="@id/tv_item_day"
         android:background="#E8E8E8"
+        android:ellipsize="start"
         android:gravity="center_vertical"
+        android:lineSpacingExtra="8dp"
         android:lines="2"
         android:padding="10dp"
-        tools:text="啊的肌肤离开家离开房\n间森林砍1212伐军绿色解放了看时的技术开发就开始JFK的角色双击打开军事科技的间分厘kfmfkklskfmlksfmlskdmflkfmlk卡几点嘞就开始了的房间里" />
+        android:textColor="#000000"
+        tools:text="啊的肌肤离开家离开房\n间cvflvf;lv;fldggdgdgdgdg森林砍1212伐军绿色解放了看时的技术开发就开始JFK的角色双击打开军事科技的间分厘kfmfkklskfmlksfmlskdmflkfmlk卡几点嘞就开始了的房间里" />
 
+    <TextView
+        android:id="@+id/tv_item_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignStart="@id/tv_item_day"
+        android:layout_alignLeft="@id/tv_item_day"
+        android:layout_alignTop="@id/tv_item_day"
+        android:layout_alignEnd="@id/tv_item_content"
+        android:layout_alignRight="@id/tv_item_content"
+        android:layout_alignBottom="@id/tv_item_week"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="待"
+        android:textColor="#000000"/>
 </RelativeLayout>

@@ -1,4 +1,4 @@
-package com.example.suji
+package com.example.suji.commons
 
 import android.util.Log
 import android.view.ViewGroup
